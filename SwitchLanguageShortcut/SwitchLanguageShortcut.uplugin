@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Switch Language Shortcut",
+	"Description": "Switch Language bewteen Chinese and English using Shortcut",
+	"Category": "Other",
+	"CreatedBy": "rint",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SwitchLanguageShortcut",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
