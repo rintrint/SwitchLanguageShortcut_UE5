@@ -1,4 +1,4 @@
-# UE5 Switch Language Shortcut
+# Switch Language Shortcut UE5
 
 用快捷键切换虚幻引擎编辑器UI介面语言，快速切换简体中文和英文介面  
 
