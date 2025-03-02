@@ -35,9 +35,11 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
-"C:\Users\user\Desktop\rintLanguageShortcut\Intermediate\Build\Win64\x64\rintLanguageShortcutEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
-"C:\Users\user\Desktop\rintLanguageShortcut\Plugins\SwitchLanguageShortcut\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwitchLanguageShortcut\SwitchLanguageShortcut.cpp.obj"
-"C:\Users\user\Desktop\rintLanguageShortcut\Plugins\SwitchLanguageShortcut\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwitchLanguageShortcut\Default.rc2.res"
+/NOIMPLIB
+"C:\Users\user\Desktop\MyProject\Intermediate\Build\Win64\x64\MyProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\user\Desktop\MyProject\Plugins\SwitchLanguageShortcut\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwitchLanguageShortcut\Module.SwitchLanguageShortcut.cpp.obj"
+"C:\Users\user\Desktop\MyProject\Plugins\SwitchLanguageShortcut\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwitchLanguageShortcut\SwitchLanguageShortcut.cpp.obj"
+"C:\Users\user\Desktop\MyProject\Plugins\SwitchLanguageShortcut\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwitchLanguageShortcut\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Slate\UnrealEditor-Slate.lib"
@@ -77,7 +79,6 @@
 "imm32.lib"
 "uiautomationcore.lib"
 "DXGI.lib"
-/OUT:"C:\Users\user\Desktop\rintLanguageShortcut\Plugins\SwitchLanguageShortcut\Binaries\Win64\UnrealEditor-SwitchLanguageShortcut.dll"
-/IMPLIB:"C:\Users\user\Desktop\rintLanguageShortcut\Plugins\SwitchLanguageShortcut\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwitchLanguageShortcut\UnrealEditor-SwitchLanguageShortcut.sup.lib"
-/PDB:"C:\Users\user\Desktop\rintLanguageShortcut\Plugins\SwitchLanguageShortcut\Binaries\Win64\UnrealEditor-SwitchLanguageShortcut.pdb"
+/OUT:"C:\Users\user\Desktop\MyProject\Plugins\SwitchLanguageShortcut\Binaries\Win64\UnrealEditor-SwitchLanguageShortcut.dll"
+/PDB:"C:\Users\user\Desktop\MyProject\Plugins\SwitchLanguageShortcut\Binaries\Win64\UnrealEditor-SwitchLanguageShortcut.pdb"
 /ignore:4078

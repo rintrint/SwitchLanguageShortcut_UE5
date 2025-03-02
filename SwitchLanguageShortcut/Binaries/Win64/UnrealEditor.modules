@@ -1,7 +1,8 @@
 {
-	"BuildId": "33043543",
+	"BuildId": "37670630",
 	"Modules": 
 	{
-		"SwitchLanguageShortcut": "UnrealEditor-SwitchLanguageShortcut.dll"
+		"SwitchLanguageShortcut": "UnrealEditor-SwitchLanguageShortcut.dll",
+		"rintLanguageShortcut": "UnrealEditor-rintLanguageShortcut.dll"
 	}
 }

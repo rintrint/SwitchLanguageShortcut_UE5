@@ -6,7 +6,8 @@
 /NAME:"UnrealEditor-SwitchLanguageShortcut.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\user\Desktop\rintLanguageShortcut\Intermediate\Build\Win64\x64\rintLanguageShortcutEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
-"C:\Users\user\Desktop\rintLanguageShortcut\Plugins\SwitchLanguageShortcut\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwitchLanguageShortcut\SwitchLanguageShortcut.cpp.obj"
-"C:\Users\user\Desktop\rintLanguageShortcut\Plugins\SwitchLanguageShortcut\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwitchLanguageShortcut\Default.rc2.res"
-/OUT:"C:\Users\user\Desktop\rintLanguageShortcut\Plugins\SwitchLanguageShortcut\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwitchLanguageShortcut\UnrealEditor-SwitchLanguageShortcut.lib"
+"C:\Users\user\Desktop\MyProject\Intermediate\Build\Win64\x64\MyProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\user\Desktop\MyProject\Plugins\SwitchLanguageShortcut\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwitchLanguageShortcut\Module.SwitchLanguageShortcut.cpp.obj"
+"C:\Users\user\Desktop\MyProject\Plugins\SwitchLanguageShortcut\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwitchLanguageShortcut\SwitchLanguageShortcut.cpp.obj"
+"C:\Users\user\Desktop\MyProject\Plugins\SwitchLanguageShortcut\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwitchLanguageShortcut\Default.rc2.res"
+/OUT:"C:\Users\user\Desktop\MyProject\Plugins\SwitchLanguageShortcut\Intermediate\Build\Win64\x64\UnrealEditor\Development\SwitchLanguageShortcut\UnrealEditor-SwitchLanguageShortcut.lib"
