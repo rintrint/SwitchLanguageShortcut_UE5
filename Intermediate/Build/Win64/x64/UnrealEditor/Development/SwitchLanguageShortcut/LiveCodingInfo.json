@@ -1,9 +1,0 @@
-{
-	"RemapUnityFiles": 
-	{
-		"Module.SwitchLanguageShortcut.cpp.obj": [
-			"PerModuleInline.gen.cpp.obj",
-			"SwitchLanguageShortcut.cpp.obj"
-		]
-	}
-}
