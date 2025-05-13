@@ -6,11 +6,11 @@
 class FSwitchLanguageShortcutModule : public IModuleInterface
 {
 public:
-    virtual void StartupModule() override;
-    virtual void ShutdownModule() override;
+	virtual void StartupModule() override;
+	virtual void ShutdownModule() override;
 
 private:
-    void RegisterMenus();
-    void SwitchLanguage();
-    TSharedPtr<class FUICommandList> PluginCommands;
+	void RegisterMenus();
+	void SwitchLanguage();
+	TSharedPtr<class FUICommandList> PluginCommands;
 };

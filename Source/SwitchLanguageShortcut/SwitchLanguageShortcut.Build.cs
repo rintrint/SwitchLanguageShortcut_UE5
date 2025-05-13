@@ -5,14 +5,14 @@ public class SwitchLanguageShortcut : ModuleRules
     public SwitchLanguageShortcut(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-        
+
         PublicDependencyModuleNames.AddRange(
             new string[]
             {
                 "Core",
             }
             );
-            
+
         PrivateDependencyModuleNames.AddRange(
             new string[]
             {
@@ -26,7 +26,7 @@ public class SwitchLanguageShortcut : ModuleRules
                 "Projects",
                 "EditorStyle",
                 "ApplicationCore",
-				"ToolMenus"
+                "ToolMenus"
             }
             );
     }
