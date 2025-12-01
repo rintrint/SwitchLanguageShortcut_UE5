@@ -17,7 +17,7 @@
 	"Modules": [
 		{
 			"Name": "SwitchLanguageShortcut",
-			"Type": "Runtime",
+			"Type": "Editor",
 			"LoadingPhase": "Default"
 		}
 	]
