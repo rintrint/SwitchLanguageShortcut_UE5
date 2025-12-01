@@ -11,7 +11,7 @@ public class SwitchLanguageShortcut : ModuleRules
             {
                 "Core",
             }
-            );
+        );
 
         PrivateDependencyModuleNames.AddRange(
             new string[]
@@ -21,13 +21,22 @@ public class SwitchLanguageShortcut : ModuleRules
                 "Slate",
                 "SlateCore",
                 "InputCore",
-                "UnrealEd",
-                "LevelEditor",
                 "Projects",
-                "EditorStyle",
                 "ApplicationCore",
-                "ToolMenus"
             }
+        );
+
+        if (Target.bBuildEditor)
+        {
+            PrivateDependencyModuleNames.AddRange(
+                new string[]
+                {
+                    "UnrealEd",
+                    "LevelEditor",
+                    "EditorStyle",
+                    "ToolMenus",
+                }
             );
+        }
     }
 }
