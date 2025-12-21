@@ -35,6 +35,7 @@ public class SwitchLanguageShortcut : ModuleRules
                     "LevelEditor",
                     "EditorStyle",
                     "ToolMenus",
+                    "MainFrame",
                 }
             );
         }

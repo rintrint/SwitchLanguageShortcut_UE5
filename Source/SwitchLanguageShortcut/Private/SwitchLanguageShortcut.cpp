@@ -8,6 +8,7 @@
 #include "Internationalization/Internationalization.h"
 #include "Framework/Application/SlateApplication.h"
 #include "Styling/AppStyle.h"
+#include "Interfaces/IMainFrameModule.h"
 
 #define LOCTEXT_NAMESPACE "FSwitchLanguageShortcutModule"
 
@@ -53,9 +54,25 @@ void FSwitchLanguageShortcutModule::StartupModule()
 		.SetDisplayName(LOCTEXT("SwitchLanguageShortcutTab", "Switch Language"))
 		.SetMenuType(ETabSpawnerMenuType::Hidden);
 
-	// Register the commands with the global command list
-	FLevelEditorModule& LevelEditorModule = FModuleManager::LoadModuleChecked<FLevelEditorModule>("LevelEditor");
-	LevelEditorModule.GetGlobalLevelEditorActions()->Append(PluginCommands.ToSharedRef());
+	// ==============================================================
+	// 修改重點：從 LevelEditor 改為綁定到 MainFrame
+	// ==============================================================
+
+	// 確保 MainFrame 模組已載入
+	if (FModuleManager::Get().IsModuleLoaded("MainFrame"))
+	{
+		IMainFrameModule& MainFrame = FModuleManager::LoadModuleChecked<IMainFrameModule>("MainFrame");
+		// 將指令追加到主視窗的全域綁定中
+		MainFrame.GetMainFrameCommandBindings()->Append(PluginCommands.ToSharedRef());
+	}
+	else
+	{
+		// 如果 MainFrame 還沒載入（極少見），可以註冊一個載入回調，
+		// 但通常 Editor 啟動時 MainFrame 已經存在。
+		// 為求保險，您也可以保留原本的 LevelEditor 綁定作為備案：
+		FLevelEditorModule& LevelEditorModule = FModuleManager::LoadModuleChecked<FLevelEditorModule>("LevelEditor");
+		LevelEditorModule.GetGlobalLevelEditorActions()->Append(PluginCommands.ToSharedRef());
+	}
 }
 
 void FSwitchLanguageShortcutModule::ShutdownModule()
